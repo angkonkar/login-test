@@ -12,12 +12,5 @@
 		<input type="email" name="email" required>
 		<input type="submit" name="Submit" value="Submit">
 	</form>
-
-	<h1>Hello How Are You?</h1>
-	<form action="{{action('login@login')}}" method="post" accept-charset="utf-8">
-		@csrf
-		<input type="email" name="email" required>
-		<input type="submit" name="Submit" value="Submit">
-	</form>
 </body>
 </html>
